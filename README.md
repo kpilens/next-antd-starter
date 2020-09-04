@@ -1,4 +1,4 @@
-# Ant Design NextJS and Airtable
+# Ant Design NextJS Starter
 
 This example shows how to use Next.js along with [Ant Design Pro Layout](https://github.com/ant-design/ant-design-pro-layout) of React. This is intended to show the integration of this UI toolkit with the Framework.
 
