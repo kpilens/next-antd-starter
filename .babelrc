@@ -2,8 +2,20 @@
   "presets": [
     "next/babel"
   ],
+  
   "plugins": [
     ["styled-jsx/babel"],
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "@layouts": "./src/layouts",
+          "@utils": "./utils",
+          "@views": "./src/views"
+        }
+      }
+    ],
     [
       "import",
       {

@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@utils/*": ["./utils/*"],
-      "@layouts/*": ["./layouts/*"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@views/*": ["./src/views/*"],
     }
 
   },
